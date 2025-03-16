@@ -12,7 +12,7 @@ const Projects = () => {
          initial={{opacity:0,y:100}}
          transition={{duration:1}} 
         className="my-20 font-semibold text-neutral-300 text-center text-4xl">Projects</motion.h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start w-full max-w-6xl">
+        <div className="flex flex-col md:flex-row gap-10 items-start w-full max-w-6xl">
             
             {/* Left Side - Code Card */}
             <motion.div 
