@@ -39,6 +39,16 @@ const EducationSection = () => {
                     <p className="text-white">Willingdon College</p>
                     <p className="text-white">CGPA: 9.22</p>
                 </motion.div>
+
+                <motion.div 
+                whileInView={{opacity:1,y:0}} 
+                initial={{opacity:0,y:100}}
+                transition={{duration:1.5}}
+                className="bg-gradient-to-r from-purple-700  p-4 rounded-xl shadow-md">
+                    <h3 className="text-xl text-white font-semibold">MCA - Ongoing</h3>
+                    <p className="text-white">MES's Institute of Management and Career Courses</p>
+                    <p className="text-white"></p>
+                </motion.div>
             </div>
         </div>
     );
