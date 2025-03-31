@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const Projects = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center mb-10">
         <motion.h2
          whileInView={{opacity:1,y:0}} 
          initial={{opacity:0,y:100}}
@@ -30,7 +30,7 @@ const Projects = () => {
             whileInView={{opacity:1,x:0}} 
             initial={{opacity:0,x:100}}
             transition={{duration:1,delay:1.5}}
-            className="flex justify-center gap-5 mb-10 w-full max-w-3xl mx-auto">
+            className="flex flex-weap gap-5 mb-10 w-full max-w-3xl mx-auto">
               <ProjectCard1 />
               <ProjectCard2 />
             </motion.div>

@@ -16,8 +16,7 @@ const GetInTouch = () => {
             whileInView={{opacity:1,y:0}} 
             initial={{opacity:0,y:100}}
             transition={{duration:1}}
-            className="my-20 text-neutral-300 text-center text-xl">ashutoshgurav71@gmail.com</motion.h3>
-
+            className="my-20 text-neutral-300 text-center text-xl" href='ashutoshgurav71@gmail.com'>ashutoshgurav71@gmail.com</motion.h3>
 
     </div>
   )

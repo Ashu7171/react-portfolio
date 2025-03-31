@@ -15,19 +15,9 @@ const EducationSection = () => {
                 initial={{opacity:0,y:100}}
                 transition={{duration:1.5}}
                 className="bg-gradient-to-r from-purple-700  p-4 rounded-xl shadow-md">
-                    <h3 className="text-xl text-white font-semibold">SSC - 2019</h3>
-                    <p className="text-white">Vidya Mandir Prashala, Miraj</p>
-                    <p className="text-white">Percentage: 90.60%</p>
-                </motion.div>
-
-                <motion.div 
-                whileInView={{opacity:1,y:0}} 
-                initial={{opacity:0,y:100}}
-                transition={{duration:1.5}}
-                className="bg-gradient-to-r from-purple-700  p-4 rounded-xl shadow-md">
-                    <h3 className="text-xl text-white font-semibold">HSC - 2021</h3>
-                    <p className="text-white">Cambridge IIT and Medical Academy</p>
-                    <p className="text-white">Percentage: 90.50%</p>
+                    <h3 className="text-xl text-white font-semibold">MCA - Ongoing</h3>
+                    <p className="text-white">MES's Institute of Management and Career Courses</p>
+                    <p className="text-white"></p>
                 </motion.div>
 
                 <motion.div 
@@ -45,10 +35,21 @@ const EducationSection = () => {
                 initial={{opacity:0,y:100}}
                 transition={{duration:1.5}}
                 className="bg-gradient-to-r from-purple-700  p-4 rounded-xl shadow-md">
-                    <h3 className="text-xl text-white font-semibold">MCA - Ongoing</h3>
-                    <p className="text-white">MES's Institute of Management and Career Courses</p>
-                    <p className="text-white"></p>
+                    <h3 className="text-xl text-white font-semibold">HSC - 2021</h3>
+                    <p className="text-white">Cambridge IIT and Medical Academy</p>
+                    <p className="text-white">Percentage: 90.50%</p>
                 </motion.div>
+
+                <motion.div 
+                whileInView={{opacity:1,y:0}} 
+                initial={{opacity:0,y:100}}
+                transition={{duration:1.5}}
+                className="bg-gradient-to-r from-purple-700  p-4 rounded-xl shadow-md">
+                    <h3 className="text-xl text-white font-semibold">SSC - 2019</h3>
+                    <p className="text-white">Vidya Mandir Prashala, Miraj</p>
+                    <p className="text-white">Percentage: 90.60%</p>
+                </motion.div>
+            
             </div>
         </div>
     );
