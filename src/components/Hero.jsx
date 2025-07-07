@@ -23,7 +23,7 @@ const Hero = () => {
               transition={{ duration: 0.7, delay: 1.2 }}
               className="text-white my-2 max-w-xl py-6 font-light tracking-tighter"
             >
-              I am a passionate and motivated first-year MCA student with a keen interest in software development, web technologies, and problem-solving.
+              I am a passionate and motivated second-year MCA student with a keen interest in software development, web technologies, and problem-solving.
               I enjoy exploring new programming languages, frameworks, and tools to build efficient and scalable applications.
               With a strong foundation in computer science and a continuous learning mindset.
               I am always open to collaboration and look forward to opportunities that challenge me to grow as a developer.
